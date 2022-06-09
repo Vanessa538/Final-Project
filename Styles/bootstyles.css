@@ -1,0 +1,85 @@
+
+
+.common {
+    /* background-color: #CCCCCC;
+    border: solid 2px white; */
+    position: absolute;
+}
+
+.header {
+    top: 5px;
+    left: 10px;
+    right: 10px;
+    height: 100px;
+    z-index: 2;
+    background-color: black;
+}
+
+.tableauPos1 {
+    width: 45%;
+    float: left;
+
+}
+.padding{
+    padding-top: 124px; /*so the pictures wouldn't be behind the header */
+}
+
+.tableauPos2 {
+    width: 45%;
+    float: right;
+}
+
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 18px; /*hiegth was originally 50 but footer is just saying the copy right stuff so it doesn't need to be that big*/
+    font-size: 14px;
+    position: fixed; /*this was aboslute before but we made it fixed so when the page is long enough it will stay at the bottom of the page instead of going to the top when scrolling down*/
+    text-align: center
+}
+
+.tabFooter {
+    text-align: center;
+}
+
+
+.a{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+.h5 {
+    color: white;
+    background: black;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.a:hover {
+    color: #c2c2c2;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+}
+.subheader {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.sizing {
+    height: 100px;
+    width: 150px;
+}
+.Background {
+    background-image: url('../assets/images/spiderverseBG.webp');
+    background-position: bottom center;
+
+}
